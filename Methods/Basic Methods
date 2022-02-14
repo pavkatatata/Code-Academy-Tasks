@@ -1,0 +1,23 @@
+using System;
+using System.Linq;
+using System.Collections.Generic;
+
+
+namespace Methods
+
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            VisitPlanets();
+           
+
+        }
+
+        private static void VisitPlanets()
+        {
+            Console.WriteLine("You visited many new planets…");
+        }
+    }
+}
