@@ -1,0 +1,29 @@
+using System;
+
+namespace NamedArguments
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            NamePets("liza", "sara");
+
+            VisitPlanets(numberOfPlanets: 8);
+        }
+
+
+
+        private static void VisitPlanets(int numberOfPlanets)
+        {
+            Console.WriteLine($"I visit yestarday {numberOfPlanets} planets ");
+        }
+
+
+
+        private static void NamePets(string liza, string sara)
+        {
+            Console.WriteLine($"I have two dogs {liza} and {sara}");
+        }
+    }
+}
