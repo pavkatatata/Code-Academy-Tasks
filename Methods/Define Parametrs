@@ -1,0 +1,27 @@
+using System;
+using System.Linq;
+using System.Collections.Generic;
+
+
+namespace Methods
+
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            VisitPlanets(3);  /// -> 3 is argument
+
+
+            VisitPlanets(5);
+
+            VisitPlanets(9);
+
+        }
+
+        static void VisitPlanets(int numberOfPlanets)   // -> numberOfPlanets is parametars
+        {
+            Console.WriteLine($"You visited {numberOfPlanets} new planets...");
+        }
+    }
+}
