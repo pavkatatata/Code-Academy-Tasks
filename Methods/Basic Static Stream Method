@@ -1,0 +1,23 @@
+using System;
+
+namespace Return
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            
+            Console.WriteLine(DecoratePlanet(Console.ReadLine()));
+
+
+        }
+
+         static string DecoratePlanet(string p)
+        {
+            return $"Welcome to the {p}";
+        }
+
+
+    }
+}
